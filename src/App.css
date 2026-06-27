@@ -107,8 +107,12 @@ h1, h2, h3 {
   background-color: var(--branco);
   text-align: center;
   padding: 80px 24px;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .eventos h2 {
@@ -208,4 +212,21 @@ h1, h2, h3 {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.6;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 24px;
+  transition: opacity 0.2s;
+}
+
+.btn-whatsapp:hover {
+  opacity: 0.85;
 }
