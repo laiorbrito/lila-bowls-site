@@ -20,9 +20,26 @@ function App() {
 
       {/* Cardápio */}
       <section className="cardapio">
-        <h2>Nosso Cardápio</h2>
-        <p>Disponível pelo iFood para toda a Zona Sul</p>
-      </section>
+  <h2>Nosso Cardápio</h2>
+  <p>Disponível pelo iFood para toda a Zona Sul</p>
+  <div className="pratos-grid">
+    {[
+      { nome: "Baratíssima", descricao: "Mix de folhas, cebola roxa, cenoura, milho, tomate, frango desfiado, molho verdinho e batata palha" },
+      { nome: "Monte Seu Bowl de Salada", descricao: "Escolha sua proteína, base, ingredientes, molho e finalização do seu jeito" },
+      { nome: "Monte Seu Bowl de Macarrão", descricao: "Espaguete ou penne, proteína, ingredientes e molho da sua escolha" },
+      { nome: "Mediterrânea", descricao: "Mix de folhas, brócolis, cebola roxa, penne, queijo minas, tomate, frango desfiado e molho caesar" },
+      { nome: "Caesar", descricao: "Alface americana, bacon, frango grelhado, parmesão, crouton e molho caesar" },
+    ].map((prato, index) => (
+      <div key={index} className="prato-card">
+        <h3>{prato.nome}</h3>
+        <p>{prato.descricao}</p>
+      </div>
+    ))}
+  </div>
+  <a href="https://www.ifood.com.br" target="_blank" className="btn-primary">
+    Ver cardápio completo no iFood
+  </a>
+</section>
 
       {/* Eventos */}
       <section className="eventos">

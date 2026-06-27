@@ -176,3 +176,36 @@ h1, h2, h3 {
 .btn-secondary:hover {
   opacity: 0.85;
 }
+
+/* Cards do cardápio */
+.pratos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 40px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.prato-card {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 24px;
+  width: 280px;
+  text-align: left;
+}
+
+.prato-card h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.1rem;
+  color: var(--menta);
+  margin-bottom: 10px;
+}
+
+.prato-card p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+}
