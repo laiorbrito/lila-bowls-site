@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --teal: #3d9688;
+  --menta: #c8e6e0;
+  --bege: #f5ede3;
+  --verde-escuro: #1a5c45;
+  --texto: #333;
+  --branco: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--texto);
+  background-color: var(--branco);
+}
+
+h1, h2, h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--teal);
+  color: var(--branco);
+  text-align: center;
+  padding: 100px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: var(--menta);
+}
+
+.slogan {
+  font-size: 1.2rem;
+  color: var(--menta);
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: var(--branco);
+  color: var(--teal);
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 8px;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+/* Sobre */
+.sobre {
+  background-color: var(--bege);
+  padding: 100px 24px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  color: var(--verde-escuro);
+  margin-bottom: 24px;
+}
+
+.sobre p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--texto);
+}
+
+/* Cardápio */
+.cardapio {
+  background-color: var(--teal);
+  color: var(--branco);
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.cardapio h2 {
+  font-size: 2rem;
+  color: var(--menta);
+  margin-bottom: 16px;
+}
+
+.cardapio p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Eventos */
+.eventos {
+  background-color: var(--branco);
+  text-align: center;
+  padding: 80px 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.eventos h2 {
+  font-size: 2rem;
+  color: var(--verde-escuro);
+  margin-bottom: 24px;
+}
+
+.eventos p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--texto);
+}
+
+/* Ebook */
+.ebook {
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+  text-align: center;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.ebook h2 {
+  font-size: 2rem;
+  color: var(--menta);
+}
+
+.ebook p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 500px;
+}
+
+/* Contato */
+.contato {
+  background-color: var(--bege);
+  text-align: center;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.contato h2 {
+  font-size: 2rem;
+  color: var(--verde-escuro);
+}
+
+.btn-secondary {
+  background-color: var(--teal);
+  color: var(--branco);
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: opacity 0.2s;
+}
+
+.btn-secondary:hover {
+  opacity: 0.85;
+}
