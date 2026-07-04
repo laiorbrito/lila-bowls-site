@@ -272,3 +272,47 @@ h1, h2, h3 {
 .nav-links a:hover {
   opacity: 0.75;
 }
+
+/* Em breve */
+.em-breve {
+  background-color: var(--bege);
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.em-breve h2 {
+  font-size: 2rem;
+  color: var(--verde-escuro);
+  margin-bottom: 40px;
+}
+
+.em-breve-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.em-breve-card {
+  background-color: var(--branco);
+  border-radius: 12px;
+  padding: 32px;
+  width: 380px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid var(--teal);
+}
+
+.em-breve-card h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.3rem;
+  color: var(--teal);
+  margin-bottom: 12px;
+}
+
+.em-breve-card p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--texto);
+}

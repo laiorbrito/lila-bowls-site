@@ -40,6 +40,21 @@ function App() {
   </a>
 </section>
 
+      {/* Em breve */}
+      <section className="em-breve" id="em-breve">
+  <h2>Em Breve</h2>
+  <div className="em-breve-grid">
+    <div className="em-breve-card">
+      <h3>🛵 Lila Express</h3>
+      <p>A Lila Bowls chega à Zona Norte! Em breve, delivery de itens prontos direto pra você com a qualidade e o sabor que você já conhece.</p>
+    </div>
+    <div className="em-breve-card">
+      <h3>🥬 Cassel Fruit</h3>
+      <p>Parceria com o Cassel Fruit, hortifruti da região. Nossas campeãs de vendas disponíveis perto de você.</p>
+    </div>
+  </div>
+</section>
+      
       {/* Eventos */}
       <section className="eventos" id='eventos'>
   <h2>Eventos & Casamentos</h2>
