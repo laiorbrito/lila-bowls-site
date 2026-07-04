@@ -70,21 +70,60 @@ function App() {
 </section>
 
       {/* Ebook */}
-      <section className="ebook" id='ebook'>
-        <h2>Ebook de Molhos</h2>
-        <p>Aprenda a fazer os molhos campeões da Lila Bowls em casa.</p>
-        <a href="https://hotmart.com" target="_blank" className="btn-primary">
-          Comprar Ebook
-        </a>
-      </section>
+      <section className="ebook" id="ebook">
+  <div className="ebook-conteudo">
+    <div className="ebook-imagem">
+      <img src="/capa_ebook.webp" alt="Guia dos Molhos - Lila Bowls" />
+    </div>
+    <div className="ebook-texto">
+      <h2>Guia dos Molhos</h2>
+      <p className="ebook-subtitulo">O segredo do nosso sucesso agora na sua casa!</p>
+      <ul className="ebook-lista">
+        <li>✅ Receitas exclusivas dos molhos campeões da Lila Bowls</li>
+        <li>✅ Fácil de fazer em casa com ingredientes simples</li>
+        <li>✅ 10 anos de experiência em um único guia</li>
+        <li>✅ Acesso imediato após a compra</li>
+      </ul>
+      <a href="https://fernandaafiliada47.hotmart.host/pagina-de-vendas-43f42efc-eb58-44f4-833a-38949cea0e5d" target="_blank" className="btn-primary">
+        Quero o Guia dos Molhos →
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* Contato */}
-      <section className="contato" id='contato'>
-        <h2>Fale com a gente</h2>
-        <a href="https://instagram.com/lilabowls" target="_blank" className="btn-secondary">
-          Instagram
-        </a>
-      </section>
+      <section className="contato" id="contato">
+  <h2>Fale com a gente</h2>
+  <div className="links-rapidos">
+    <a href="https://www.ifood.com.br/delivery/rio-de-janeiro-rj/lila-bowls---saladeria-botafogo/34ee8c21-19d7-496d-8db2-01a9d2634ad4" target="_blank" className="link-card">
+      🛵 Cardápio iFood — Zona Sul
+    </a>
+    <a href="#" className="link-card em-breve-link">
+      🛵 Cardápio iFood — Zona Norte (Em breve)
+    </a>
+    <a href="https://fernandaafiliada47.hotmart.host/pagina-de-vendas-43f42efc-eb58-44f4-833a-38949cea0e5d" target="_blank" className="link-card">
+      📖 eBook — Guia dos Molhos
+    </a>
+    <a href="https://wa.me/5521997851052?text=Olá! Gostaria de fazer um orçamento para um evento." target="_blank" className="link-card">
+      🎉 Lila Festas — Orçamento
+    </a>
+    <a href="https://share.google/iqMIl9x2mWqmFc6ks" target="_blank" className="link-card">
+      ⭐ Avaliações no Google
+    </a>
+    <a href="https://share.google/iqMIl9x2mWqmFc6ks" target="_blank" className="link-card">
+      📍 Retirada — Rua General Severiano 225, Botafogo
+    </a>
+    <a href="https://instagram.com/lilabowls" target="_blank" className="link-card">
+      📸 Instagram
+    </a>
+    <a href="https://www.tiktok.com/@lilabowls" target="_blank" className="link-card">
+      🎵 TikTok
+    </a>
+    <a href="https://wa.me/5521997851052" target="_blank" className="link-card">
+      💬 WhatsApp
+    </a>
+  </div>
+</section>
       <Footer />
     </div>
   )
