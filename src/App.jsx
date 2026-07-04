@@ -5,11 +5,8 @@ function App() {
     <div>
       {/* Hero */}
       <section className="hero">
-        <h1>Lila Bowls</h1>
+        <img src="/Lila__V0.png" alt="Lila Bowls" className="hero-logo" />
         <p className="slogan">A escolha que faz bem</p>
-        <a href="https://www.ifood.com.br" target="_blank" className="btn-primary">
-          Pedir no iFood
-        </a>
       </section>
 
       {/* Sobre */}
@@ -36,7 +33,7 @@ function App() {
       </div>
     ))}
   </div>
-  <a href="https://www.ifood.com.br" target="_blank" className="btn-primary">
+  <a href="https://www.linkou.vc/lilabowls" target="_blank" className="btn-primary">
     Ver cardápio completo no iFood
   </a>
 </section>

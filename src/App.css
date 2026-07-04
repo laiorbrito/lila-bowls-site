@@ -40,6 +40,11 @@ h1, h2, h3 {
   color: var(--menta);
 }
 
+.hero-logo {
+  width: 280px;
+  max-width: 80%;
+}
+
 .slogan {
   font-size: 1.2rem;
   color: var(--menta);
@@ -230,3 +235,4 @@ h1, h2, h3 {
 .btn-whatsapp:hover {
   opacity: 0.85;
 }
+
