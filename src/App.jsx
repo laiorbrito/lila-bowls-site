@@ -1,8 +1,10 @@
 import './App.css'
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div>
+      <Navbar />
       {/* Hero */}
       <section className="hero">
         <img src="/Lila__V0.png" alt="Lila Bowls" className="hero-logo" />
@@ -10,13 +12,13 @@ function App() {
       </section>
 
       {/* Sobre */}
-      <section className="sobre">
+      <section className="sobre" id='sobre'>
         <h2>Nossa História</h2>
         <p>Há 10 anos em Botafogo, a Lila Bowls nasceu da vontade de oferecer uma alimentação saborosa, nutritiva e acessível no coração do Rio de Janeiro. Cada bowl é montado com carinho e ingredientes frescos, para que cada refeição seja uma escolha que faz bem.</p>
       </section>
 
       {/* Cardápio */}
-      <section className="cardapio">
+      <section className="cardapio" id='cardapio'>
   <h2>Nosso Cardápio</h2>
   <p>Disponível pelo iFood para toda a Zona Sul</p>
   <div className="pratos-grid">
@@ -39,7 +41,7 @@ function App() {
 </section>
 
       {/* Eventos */}
-      <section className="eventos">
+      <section className="eventos" id='eventos'>
   <h2>Eventos & Casamentos</h2>
   <p>Levamos nossa estação de bowls e saladas para o seu evento. Festas, casamentos e corporativos com a qualidade Lila Bowls.</p>
   <a 
@@ -52,7 +54,7 @@ function App() {
 </section>
 
       {/* Ebook */}
-      <section className="ebook">
+      <section className="ebook" id='ebook'>
         <h2>Ebook de Molhos</h2>
         <p>Aprenda a fazer os molhos campeões da Lila Bowls em casa.</p>
         <a href="https://hotmart.com" target="_blank" className="btn-primary">
@@ -61,7 +63,7 @@ function App() {
       </section>
 
       {/* Contato */}
-      <section className="contato">
+      <section className="contato" id='contato'>
         <h2>Fale com a gente</h2>
         <a href="https://instagram.com/lilabowls" target="_blank" className="btn-secondary">
           Instagram
