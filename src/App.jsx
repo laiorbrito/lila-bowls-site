@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Navbar />
       {/* Hero */}
       <section className="hero">
-        <img src="/Lila__V0.png" alt="Lila Bowls" className="hero-logo" />
+        <img src="/Lila_Logo_SemFundo.png" alt="Lila Bowls" className="hero-logo" />
         <p className="slogan">A escolha que faz bem</p>
       </section>
 
@@ -84,6 +85,7 @@ function App() {
           Instagram
         </a>
       </section>
+      <Footer />
     </div>
   )
 }

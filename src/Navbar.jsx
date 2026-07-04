@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <img src="/Lila__V0.png" alt="Lila Bowls" className="nav-logo" />
+      <img src="/Lila_Logo_SemFundo.png" alt="Lila Bowls" className="nav-logo" />
       <ul className="nav-links">
         <li><a href="#sobre">Nossa História</a></li>
         <li><a href="#cardapio">Cardápio</a></li>
