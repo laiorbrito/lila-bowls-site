@@ -615,3 +615,15 @@ h1, h2, h3 {
     max-width: 380px;
   }
 }
+
+/* Animações de scroll */
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.animate.visivel {
+  opacity: 1;
+  transform: translateY(0);
+}

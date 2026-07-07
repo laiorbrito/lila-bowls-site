@@ -1,8 +1,22 @@
 import './App.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(() => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visivel')
+      }
+    })
+}, { threshold: 0.05, rootMargin: '0px 0px -50px 0px' })
+
+  document.querySelectorAll('.animate').forEach(el => observer.observe(el))
+
+  return () => observer.disconnect()
+}, [])
   return (
     <div>
       <Navbar />
@@ -13,13 +27,13 @@ function App() {
       </section>
 
       {/* Sobre */}
-      <section className="sobre" id='sobre'>
+      <section className="sobre animate" id='sobre'>
         <h2>Nossa História</h2>
         <p>Há 10 anos em Botafogo, a Lila Bowls nasceu da vontade de oferecer uma alimentação saborosa, nutritiva e acessível no coração do Rio de Janeiro. Cada bowl é montado com carinho e ingredientes frescos, para que cada refeição seja uma escolha que faz bem.</p>
       </section>
 
       {/* Cardápio */}
-      <section className="cardapio" id='cardapio'>
+      <section className="cardapio animate" id='cardapio'>
   <h2>Nosso Cardápio</h2>
   <p>Disponível pelo iFood para toda a Zona Sul</p>
   <div className="pratos-grid">
@@ -42,7 +56,7 @@ function App() {
 </section>
 
       {/* Em breve */}
-      <section className="em-breve" id="em-breve">
+      <section className="em-breve animate" id="em-breve">
   <h2>Em Breve</h2>
   <div className="em-breve-grid">
     <div className="em-breve-card">
@@ -57,7 +71,7 @@ function App() {
 </section>
       
       {/* Eventos */}
-      <section className="eventos" id='eventos'>
+      <section className="eventos animate" id='eventos'>
   <h2>Eventos & Casamentos</h2>
   <p>Levamos nossa estação de bowls e saladas para o seu evento. Festas, casamentos e corporativos com a qualidade Lila Bowls.</p>
   <a 
@@ -70,7 +84,7 @@ function App() {
 </section>
 
       {/* Ebook */}
-      <section className="ebook" id="ebook">
+      <section className="ebook animate" id="ebook">
   <div className="ebook-conteudo">
     <div className="ebook-imagem">
       <img src="/capa_ebook.webp" alt="Guia dos Molhos - Lila Bowls" />
@@ -92,7 +106,7 @@ function App() {
 </section>
 
       {/* Contato */}
-      <section className="contato" id="contato">
+      <section className="contato animate" id="contato">
   <h2>Fale com a gente</h2>
   <p className="contato-subtitulo">Estamos no Botafogo e entregamos em toda a Zona Sul</p>
   
