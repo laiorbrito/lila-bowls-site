@@ -94,34 +94,36 @@ function App() {
       {/* Contato */}
       <section className="contato" id="contato">
   <h2>Fale com a gente</h2>
-  <div className="links-rapidos">
-    <a href="https://www.ifood.com.br/delivery/rio-de-janeiro-rj/lila-bowls---saladeria-botafogo/34ee8c21-19d7-496d-8db2-01a9d2634ad4" target="_blank" className="link-card">
-      🛵 Cardápio iFood — Zona Sul
-    </a>
-    <a href="#" className="link-card em-breve-link">
-      🛵 Cardápio iFood — Zona Norte (Em breve)
-    </a>
-    <a href="https://fernandaafiliada47.hotmart.host/pagina-de-vendas-43f42efc-eb58-44f4-833a-38949cea0e5d" target="_blank" className="link-card">
-      📖 eBook — Guia dos Molhos
-    </a>
-    <a href="https://wa.me/5521997851052?text=Olá! Gostaria de fazer um orçamento para um evento." target="_blank" className="link-card">
-      🎉 Lila Festas — Orçamento
-    </a>
-    <a href="https://share.google/iqMIl9x2mWqmFc6ks" target="_blank" className="link-card">
-      ⭐ Avaliações no Google
-    </a>
-    <a href="https://share.google/iqMIl9x2mWqmFc6ks" target="_blank" className="link-card">
-      📍 Retirada — Rua General Severiano 225, Botafogo
-    </a>
-    <a href="https://instagram.com/lilabowls" target="_blank" className="link-card">
-      📸 Instagram
-    </a>
-    <a href="https://www.tiktok.com/@lilabowls" target="_blank" className="link-card">
-      🎵 TikTok
-    </a>
-    <a href="https://wa.me/5521997851052" target="_blank" className="link-card">
-      💬 WhatsApp
-    </a>
+  <p className="contato-subtitulo">Estamos no Botafogo e entregamos em toda a Zona Sul</p>
+  
+  <div className="contato-grid">
+    <div className="contato-card">
+      <span>📍</span>
+      <h3>Retirada</h3>
+      <p>Rua General Severiano 225<br/>Botafogo, Rio de Janeiro</p>
+      <a href="https://share.google/iqMIl9x2mWqmFc6ks" target="_blank">Ver no Maps</a>
+    </div>
+
+    <div className="contato-card">
+      <span>⭐</span>
+      <h3>Avaliações</h3>
+      <p>Deixe sua opinião e nos ajude a melhorar cada vez mais</p>
+      <a href="https://share.google/iqMIl9x2mWqmFc6ks" target="_blank">Avaliar no Google</a>
+    </div>
+
+    <div className="contato-card">
+      <span>💬</span>
+      <h3>WhatsApp</h3>
+      <p>Fale diretamente com a gente para dúvidas e informações</p>
+      <a href="https://wa.me/5521997851052" target="_blank">Chamar no WhatsApp</a>
+    </div>
+  </div>
+
+  <div className="redes-sociais">
+    <a href="https://instagram.com/lilabowls" target="_blank">📸 Instagram</a>
+    <a href="https://www.tiktok.com/@lilabowls" target="_blank">🎵 TikTok</a>
+    <a href="https://wa.me/5521997851052" target="_blank">💬 WhatsApp</a>
+    <a href="https://www.ifood.com.br/delivery/rio-de-janeiro-rj/lila-bowls---saladeria-botafogo/34ee8c21-19d7-496d-8db2-01a9d2634ad4" target="_blank">🛵 iFood</a>
   </div>
 </section>
       <Footer />
