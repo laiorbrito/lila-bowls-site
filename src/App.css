@@ -133,17 +133,6 @@ h1, h2, h3 {
   color: var(--texto);
 }
 
-/* Ebook */
-.ebook {
-  background-color: var(--verde-escuro);
-  color: var(--branco);
-  text-align: center;
-  padding: 80px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
 
 .ebook h2 {
   font-size: 2rem;
@@ -517,12 +506,6 @@ h1, h2, h3 {
   }
 }
 
-/* Contato */
-.contato {
-  background-color: var(--bege);
-  text-align: center;
-  padding: 80px 24px;
-}
 
 .contato h2 {
   font-size: 2rem;
@@ -626,6 +609,14 @@ h1, h2, h3 {
 .animate.visivel {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 .hero-cta {
