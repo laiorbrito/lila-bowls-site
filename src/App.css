@@ -11,6 +11,8 @@
   --verde-escuro: #1a5c45;
   --texto: #333;
   --branco: #ffffff;
+  --whatsapp: #25d366;
+  --desabilitado: #aaa;
 }
 
 body {
@@ -265,7 +267,7 @@ h1, h2, h3 {
 
 /* Em breve */
 .em-breve {
-  background-color: var(--bege);
+  background-color: var(--desabilitado);
   text-align: center;
   padding: 80px 24px;
 }
