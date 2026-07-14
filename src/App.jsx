@@ -20,13 +20,19 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-        <OndaDivisoria corTopo="#3d9688" corBaixo="#f5ede3" />
+      <OndaDivisoria corTopo="#3d9688" corBaixo="#f5ede3" />
       <Sobre />
+      <OndaDivisoria corTopo="#f5ede3" corBaixo="#3d9688" />
       <Cardapio />
+      <OndaDivisoria corTopo="#3d9688" corBaixo="#f5ede3" />
       <EmBreve />
+      <OndaDivisoria corTopo="#f5ede3" corBaixo="#ffffff" />
       <Eventos />
+      <OndaDivisoria corTopo="#ffffff" corBaixo="#1a5c45" />
       <Ebook />
+      <OndaDivisoria corTopo="#1a5c45" corBaixo="#f5ede3" />
       <Contato />
+      <OndaDivisoria corTopo="#f5ede3" corBaixo="#1a5c45" />
       <Footer />
     </div>
   )

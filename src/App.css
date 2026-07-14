@@ -267,7 +267,7 @@ h1, h2, h3 {
 
 /* Em breve */
 .em-breve {
-  background-color: var(--desabilitado);
+  background-color: var(--bege);
   text-align: center;
   padding: 80px 24px;
 }

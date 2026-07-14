@@ -1,7 +1,6 @@
-
 function OndaDivisoria({ corTopo, corBaixo }) {
   return (
-    <div style={{ backgroundColor: corBaixo, lineHeight: 0 }}>
+    <div style={{ backgroundColor: corTopo, lineHeight: 0 }}>
       <svg
         viewBox="0 0 1440 100"
         preserveAspectRatio="none"
@@ -9,7 +8,7 @@ function OndaDivisoria({ corTopo, corBaixo }) {
       >
         <path
           d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"
-          fill={corTopo}
+          fill={corBaixo}
         />
       </svg>
     </div>
